@@ -25,3 +25,14 @@ sensor from Bosch Sensortec to your AVR/Arduino projects.
 	and add these object files to your linker command.
 * Profit! :-)
 
+## Credits
+
+This library uses the the [I2C/TWI master library](http://homepage.hispeed.ch/peterfleury/doxygen/avr-gcc-libraries/group__pfleury__ic2master.html) by Peter Fleury for its I2C configuration.
+
+The `example.c` file uses the UART library by Peter Fleury for debugging output.
+
+Apart from the above, the BMP280 library itself as well as the example file
+is written by [Jan "Yenya" Kasprzak](https://www.fi.muni.cz/~kas/).
+
+
+
