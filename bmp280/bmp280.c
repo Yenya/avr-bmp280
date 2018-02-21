@@ -113,7 +113,8 @@ static union _bmp280_cal_union {
 /*
  * read calibration registers
  */
-static void bmp280_getcalibration() {
+static void bmp280_getcalibration(void)
+{
 	memset(bmp280_cal.bytes, 0, sizeof(bmp280_cal));
 
 	bmp280_readmem(
